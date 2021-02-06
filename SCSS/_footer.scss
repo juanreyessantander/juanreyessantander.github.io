@@ -1,0 +1,13 @@
+.footer{
+    grid-area: footer;
+    margin-top: 4px;
+    color: $bg-color-texto; 
+    align-content: left;
+    justify-content: left;
+    text-align: center;
+}
+h3{
+    color: $bg-color-titulos;
+    font-size: large;
+    font-family: $bg-fuente;
+}

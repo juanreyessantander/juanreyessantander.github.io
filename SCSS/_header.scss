@@ -1,0 +1,36 @@
+
+/*Este es el scss del header*/
+header{
+    background-color: $bg-color-primario;
+height: 20S0px;
+padding: 2px;
+margin: auto;
+width: 100%; 
+
+h1{font-size: larger;
+font-family: $bg-fuente;
+color: $bg-color-titulos;}
+  
+    .menu{list-style-type: none;               
+    
+    ul  {display: flex;    
+        justify-content: space-around;
+    
+        li {list-style: none;
+
+            a {color: black;
+               text-decoration: none;
+           }
+        }
+    }
+  }
+}    
+    
+   
+    
+    
+    
+    
+        
+
+    

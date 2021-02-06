@@ -1,0 +1,76 @@
+
+.principal{
+    display: grid;
+    
+    grid-template-columns:25% 32.5% 32.5%;
+    grid-template-rows: 500px ;
+    
+    grid-template-areas:
+                        "izquierda centro derecha"
+                        "izquierda centro derecha";
+    }
+    
+       
+    .izquierda{
+        grid-area: izquierda;
+        display: flex;
+        color: $bg-color-texto; 
+        margin: 2px 2px 2px 2px;
+        padding: 5px;
+        margin: 4px;
+        justify-content: left;
+        align-content: left;
+        text-align: left;
+        font-size:12px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+        }
+    .flex{
+        display: flexbox;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        
+    }
+    .imagen{
+        width: 100px;
+        height: 100px;
+    }
+    
+    
+    .logo{animation: logo 12s infinite;}
+    
+    @keyframes logo{
+        from{transform: rotatex(0deg)}
+        to{transform: rotatex(360deg)}
+    }
+
+
+    
+    .centro{
+        grid-area: centro;
+        color: brown; margin: 2px 2px 2px 2px;
+        display: block;
+        padding: 5px;
+        margin: 4px;
+        justify-content: center;
+        align-content: center;
+        font-size:small;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    
+    }
+    
+    .derecha{
+        grid-area: derecha;
+        color: brown; margin: 2px 2px 2px 2px;
+        padding: 5px;
+        margin: 4px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        font-size:small;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+    
